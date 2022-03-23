@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey form (all infomation is neccessay to be provided).</p>
+      </header>
+    <hr>
+     <div>
+      <form id="survey-form">
+      
+      <label id="name-label" for="name">Name:</label><br>
+      <input type="text" name="name" id="name" placeholder="ABC" required><br><br>
+      
+      <label id="email-label" for="E-mail">E-mail:</label><br>
+      <input type="email" name="E-mail" id="email" placeholder="jan@abc.com" required><br><br>
+      
+      <label id="number-label" for="number">Number:<label><br>
+      <input type="number" name="Number" id="number" min="1" max="120" placeholder="30"><br><br>
+        
+        Please tell your gender: <br>
+      <select name="gender" id="dropdown">
+         <option disabled selected value>SELECT ONE OF THESE</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select><br><br>
+        
+        Which position were you earlier working:<br>
+        <input type="radio" name="work" value="past" checked> Head of department<br>
+    <input type="radio" name="work" value="past" > Manager<br>
+    <input type="radio" name="work" value="past"> Operator<br><br>
+        
+        Which language would you like to prefer the interview(can select more then one language):<br>
+    <input type="checkbox" name="language" value="interview"> Hindi<br>
+    <input type="checkbox" name="language" value="interview"> English<br>
+    <input type="checkbox" name="language" value="interview"> Punjabi<br>
+    <input type="checkbox" name="language" value="interview"> French<br> 
+    <input type="checkbox" name="language" value="interview"> Japanese<br><br>
+       
+       What is your current carrier and what is your drem?: <br>
+    <textarea rows="5" column="10">
+    Write here.
+    </textarea ><br><br>
+      
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    </div>
+        <hr>
+      <footer><a  href="mailto:mail@xyz.com"></a>In case of Query.Please contact :<a href="https://www.freecodecamp.org/" target="_blank">www.freeCodeCamp.org</a>-2018</footer>
+      </body>
+      </html>
+    

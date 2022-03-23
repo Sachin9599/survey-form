@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: georgia;
+        }
+  
+  div {
+    background-color: #f0f5f5;
+    text-align: left;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 35%;
+    margin: auto;
+        }
+  @media (max-width: 700px) {
+      div {
+        max-width: 80%;
+            }
+                            }
+  textarea {width: 80%}
+  footer a:link {color: black;}
+  footer a:visited {color: black;}
+  footer a:hover {color: hotpink;} 
